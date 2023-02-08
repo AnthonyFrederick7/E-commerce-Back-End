@@ -10,7 +10,8 @@ router.get('/', (req, res) => {
   try {
     const products = Product.findAll({
       include:[{
-        model: Category, model: Tag
+        model: Category, 
+        model: Tag
       }]
     });
     res.json(products)
@@ -27,7 +28,8 @@ router.get('/:id', (req, res) => {
   try {
     const productByID = Product.findByPk(req.params.id, {
       include:[{
-        model: Category, model: Tag
+        model: Category, 
+        model: Tag
       }]
     });
     if (productByID == false){
