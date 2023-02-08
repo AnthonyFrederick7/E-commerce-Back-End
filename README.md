@@ -2,6 +2,8 @@
 
 ## Description
 
+  - [Walkthrough Video Link](https://drive.google.com/file/d/1x6aBrcxbFY1e_ulHFiFCWZQN3o2KwwGX/view)
+
   - The eCommerce back end was made to view, store and edit data in the database.
 
 ## Installation
